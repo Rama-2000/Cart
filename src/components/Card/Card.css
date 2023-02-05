@@ -1,0 +1,52 @@
+.card{
+    position: relative;
+    margin: 10px auto;
+    overflow: hidden;
+    width: 320px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(#BA7E7E, .5);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 20px;
+}
+.card h1{ 
+    font-size: 42px;
+    color: darkorchid;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+.title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #686e77;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.price{
+    font-family: "Fjalla One", sans-serif;
+          color: #252525;
+          font-size: 26px;
+}
+
+.btn{
+    margin-top: 10px;
+    cursor: pointer;
+    border: 1px solid #115dd8;
+    padding: 8px 30px;
+    border-radius: 200px;
+    color: #fff;
+    background: #115dd8;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    transition: 200ms;
+    width: 100px;
+    margin-left: 115px;
+}
+.btn:hover{
+    background: #fff;
+    color: #115dd8;
+}
